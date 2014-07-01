@@ -1,0 +1,82 @@
+
+
+
+
+body {
+	width:966px;
+}
+
+
+/* Get rid of bottom margins in the header  */
+.region-header .block {
+	margin:0;
+}
+.block {
+	margin-bottom: 0;
+}
+
+ul.primary-menu {
+	width: 100%;
+	background-color: black;
+}
+#primary-menu-bar {
+	margin:0;
+}
+
+
+/*  Styles for the menu bar  */
+.nav ul.primary-menu li a,
+.nav ul.menu li a,
+#primary-menu-bar li a {
+	
+	border-width: 5px;
+	padding: 8px 10px;
+
+	font-family: verdana;
+	font-size: 8pt;
+	color: rgb(255, 108, 0);
+	font-weight: bold;
+
+	border-color: rgb(255, 255, 255);
+	border-right-style: solid;
+	border-right-width: 1px;
+	
+	background-color: rgb(0, 0, 0);
+
+}
+
+#primary-menu-bar li a:hover {
+	background-color:  rgb(128, 128, 128);
+}
+
+/* override / eliminate the annoying top border on tbody tr */
+tbody,
+tbody tr {
+	border-top: none;
+}
+
+/* Eliminate padding on td's and top-border on the tr's used for formatting in the header */
+ .wweto_header,
+ .wweto_header table {
+ 	margin: 0;
+ 	border:none;
+ }
+ .wweto_header td {
+ 	padding: 0;
+ 	border: none;
+ }
+  .wweto_header tbody,
+  .wweto_header tbody tr {
+ 	border-top: none;
+ }
+
+
+
+ /* dont show the page title in the middle of the page */
+ h1#page-title {
+ 	display:none;
+ }
+
+ .wwetohome_rotatingbanner {
+ 	background: lightgray;
+ }
